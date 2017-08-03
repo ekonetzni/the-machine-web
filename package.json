@@ -1,22 +1,20 @@
 {
   "name": "the-machine-web",
   "version": "1.0.0",
-  "description": "",
+  "description": "API for the machine",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ekonetzni/the-machine-web.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ekonetzni/the-machine-web/issues"
-  },
-  "homepage": "https://github.com/ekonetzni/the-machine-web#readme",
   "dependencies": {
-    "micro": "^7.3.3"
+    "json-stringify": "^1.0.0",
+    "level": "^1.7.0",
+    "micro": "^8.0.1",
+    "then-levelup": "^1.0.2"
+  },
+  "devDependencies": {
+    "node-fetch": "^1.7.1"
   }
 }
