@@ -17,5 +17,8 @@
   },
   "devDependencies": {
     "node-fetch": "^1.7.1"
+  },
+  "engines": {
+    "node": "8.x"
   }
 }
