@@ -1,0 +1,6 @@
+{
+  "name": "The Machine",
+  "description": "TBD",
+  "repository": "https://github.com/ekonetzni/the-machine-web.git",
+  "image": "heroku/nodejs"
+}
