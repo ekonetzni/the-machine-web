@@ -2,7 +2,7 @@ const options = {
 };
 
 const pgp = require('pg-promise')(options);
-const connectionString = 'postgres://localhost:5432/machine';
+const connectionString = process.env.DATABASE_URL || 'postgres://localhost:5432/machine';
 const db = pgp(connectionString);
 
 const getAllImages = (req, res, next) => {
